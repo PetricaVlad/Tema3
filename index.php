@@ -18,13 +18,13 @@ $result=mysqli_query($con,$query);
 <div class="card-title">
 <h1 text-black text-center py-3">Adauga task nou</h1>
 </div>
-<div class="card-body">
+<div>
 <form action="server.php" method="POST">             
-<input type="text" class="from-control" placeholder="Insereaza task" name="action">
-<button class="btn-primary" name="submit">Salvare</button>
+<input type="text" placeholder="Insereaza task" name="action">
+<button name="submit">Salvare</button>
 </form>
 </div>
-<div class="card-title">
+<div>
 <h3 text-black text-center py-3">Ce trebuie sa fac azi?</h3>
 </div>
 <table>
