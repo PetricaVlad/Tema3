@@ -13,22 +13,13 @@ $nume1=$row['nume'];
 <html>
 <head>
 <title>php+sql</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" a href="bootstrap.css">
 </head>
-<body class="bg-dark">
-<div class="container">
-<div class="row">
-<div class="col-lg-6 m-auto">
-<div class="card mt-5">
-<div class="card-title">
-<h1 text-black text-center py-3">Interfata actualizare
-</div>
-<div class="card-body">
+<body>
+<h1>Interfata actualizare
 <form action="server.php?id=<?php echo $id1?>" method="POST">
-<input type="text" class="from-control mb-2" placeholder="Action" name="input_field"
+<input type="text" placeholder="Action" name="input_field"
 value="<?php echo $nume1?>">
-<button class="btn-primary" name="update">Actualizare</button>
+<button name="update">Actualizare</button>
 </form>
 </div>
 </div>
