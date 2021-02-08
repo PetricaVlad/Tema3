@@ -16,7 +16,7 @@ $result=mysqli_query($con,$query);
 <div class="col-lg-6 m-auto">
 <div class="card mt-5">
 <div class="card-title">
-<h1 class="bg-success text-white text-center py-3">Adauga task nou</h1>
+<h1 text-black text-center py-3">Adauga task nou</h1>
 </div>
 <div class="card-body">
 <form action="server.php" method="POST">             
@@ -25,9 +25,9 @@ $result=mysqli_query($con,$query);
 </form>
 </div>
 <div class="card-title">
-<h3 class="bg-success text-white text-center py-3">Ce trebuie sa faci azi?</h3>
+<h3 text-black text-center py-3">Ce trebuie sa fac azi?</h3>
 </div>
-<table class="table table-bordered">
+<table>
 <tr>
 <td>#</td>
 <td>Denumire</td>
