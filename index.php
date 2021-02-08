@@ -7,16 +7,14 @@ $result=mysqli_query($con,$query);
 <html>
 <head>
 <title>php+sql</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" a href="bootstrap.css">
 </head>
-<body class="bg-dark">
-<h1 text-black text-center py-3">Adauga task nou</h1>
+<body>
+<h1>Adauga task nou</h1>
 <form action="server.php" method="POST">             
 <input type="text" placeholder="Insereaza task" name="action">
 <button name="submit">Salvare</button>
 </form>
-<h3 text-black text-center py-3">Ce trebuie sa fac azi?</h3>
+<h3>Ce trebuie sa fac azi?</h3>
 <table>
 <tr>
 <td>#</td>
