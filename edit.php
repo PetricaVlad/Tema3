@@ -22,7 +22,7 @@ $nume1=$row['nume'];
 <div class="col-lg-6 m-auto">
 <div class="card mt-5">
 <div class="card-title">
-<h1 class="bg-success text-white text-center py-3">Interfata actualizare>
+<h1 class="bg-success text-white text-center py-3">Interfata actualizare
 </div>
 <div class="card-body">
 <form action="server.php?id=<?php echo $id1?>" method="POST">
