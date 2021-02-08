@@ -39,7 +39,7 @@ header("location:index.php");
 }
 else
 {
-echo "can not update in database";
+echo "Nu se poate actualiza in tabel";
 }
 }
 else
