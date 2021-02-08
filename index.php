@@ -11,22 +11,12 @@ $result=mysqli_query($con,$query);
 <link rel="stylesheet" a href="bootstrap.css">
 </head>
 <body class="bg-dark">
-<div class="container">
-<div class="row">
-<div class="col-lg-6 m-auto">
-<div class="card mt-5">
-<div class="card-title">
 <h1 text-black text-center py-3">Adauga task nou</h1>
-</div>
-<div>
 <form action="server.php" method="POST">             
 <input type="text" placeholder="Insereaza task" name="action">
 <button name="submit">Salvare</button>
 </form>
-</div>
-<div>
 <h3 text-black text-center py-3">Ce trebuie sa fac azi?</h3>
-</div>
 <table>
 <tr>
 <td>#</td>
@@ -50,9 +40,5 @@ $name=$row['nume'];
 }
 ?>
 </table>
-</div>
-</div>
-</div>
-</div>
 </body>
 </html>
