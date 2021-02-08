@@ -1,0 +1,19 @@
+<?php
+$dbUsername="1JVuMKcOGz";
+$dbPassword="3TbKNHY9Nb";
+$hostName="remotemysql.com";
+$dbName="1JVuMKcOGz";
+$dbPort=3306;
+$con=mysqli_connect($hostName,$dbUsername,$dbPassword,$dbName);
+if(!$con)
+{
+die("Eroare de conexiune");
+$string="Neconectat";
+echo("<script>console.log('".$string."');</script>");
+}
+else
+{
+$string="Conectat";
+echo("<script>console.log('".$string."');</script>");
+}
+?>
