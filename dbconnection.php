@@ -1,8 +1,8 @@
 <?php
-$dbUsername="sql7391638";
-$dbPassword="pqXVyqvsHs";
-$hostName="sql7.freesqldatabase.com";
-$dbName="sql7391638";
+$dbUsername="4z56GwqMWq";
+$dbPassword="Tua6kNkv5u";
+$hostName="remotemysql.com";
+$dbName="4z56GwqMWq";
 $dbPort=3306;
 $con=mysqli_connect($hostName,$dbUsername,$dbPassword,$dbName);
 if(!$con)
